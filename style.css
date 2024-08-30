@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light turquoise background for the entire page */
+}
+
+header {
+    background-color: #00838f; /* Deep turquoise header */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+}
+
+section {
+    margin: 20px;
+}
+
+#bio {
+    background-color: #ffffff; /* White background for the bio section */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the bio section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#bio h2 {
+    color: #00796b; /* Dark teal color for the section title */
+}
+
+#work {
+    background-color: #ffffff; /* White background for the work section */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the work section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #b2dfdb; /* Light teal border for each project */
+    border-radius: 8px; /* Rounded corners for project boxes */
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #004d40; /* Darker teal color for project titles */
+}
+
+footer {
+    background-color: #00838f; /* Matching the header's deep turquoise */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
