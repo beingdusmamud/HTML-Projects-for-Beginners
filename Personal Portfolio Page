@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dus Mamud - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light turquoise background for the entire page */
+        }
 
+        header {
+            background-color: #00838f; /* Deep turquoise header */
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            font-style: italic;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        #bio {
+            background-color: #ffffff; /* White background for the bio section */
+            padding: 20px;
+            border-radius: 8px; /* Rounded corners for the bio section */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        #bio h2 {
+            color: #00796b; /* Dark teal color for the section title */
+        }
+
+        #work {
+            background-color: #ffffff; /* White background for the work section */
+            padding: 20px;
+            border-radius: 8px; /* Rounded corners for the work section */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #b2dfdb; /* Light teal border for each project */
+            border-radius: 8px; /* Rounded corners for project boxes */
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #004d40; /* Darker teal color for project titles */
+        }
+
+        footer {
+            background-color: #00838f; /* Matching the header's deep turquoise */
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0qb9BVL0cmHA-lNTBWqWrRDotOzFRGXnbzAFuZdS3-osyY9PKJc-X92_O82jvjrfgqzPinHZJmzUPh-0iigqW8rNCAWemQe8rpGWiGuLkpZXn7HLeCOndOxOo951UczgIUqbnfVgivNKWp7SCoTv6J0YXbCIfJqr5YVfvgTOBLVJAPwk7zXyOlDLM03o/s3264/Dus%20Mamud.jpg" alt="Profile Picture">
+        <h1>Dus Mamud</h1>
+        <p>Web Developer | Designer | Tech Enthusiast</p>
+    </header>
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Hi, I'm Dus Mamud, a passionate web developer and designer. I love creating beautiful and functional websites, exploring new technologies, and learning new skills. With a background in both design and development, I aim to build engaging user experiences.</p>
+    </section>
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="project" id="project1">
+            <h3>Project 1</h3>
+            <p>A description of Project 1. Highlight the key features and technologies used.</p>
+        </div>
+        <div class="project" id="project2">
+            <h3>Project 2</h3>
+            <p>A description of Project 2. Highlight the key features and technologies used.</p>
+        </div>
+        <div class="project" id="project3">
+            <h3>Project 3</h3>
+            <p>A description of Project 3. Highlight the key features and technologies used.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Contact me at dusmamud@example.com</p>
+    </footer>
+</body>
+</html>
